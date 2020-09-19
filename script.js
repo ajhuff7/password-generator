@@ -5,7 +5,6 @@ var generateBtn = document.querySelector("#generate");
 function writePassword(){
     var pLength = prompt("What is the desired length of the password?")
 
-    pLength = (parseInt)pLength
 
     if (pLength < 8 || pLength > 128){ 
         alert("Must choose between 8 and 128 characters."); 
@@ -16,10 +15,9 @@ function writePassword(){
     var pNumber = confirm("Would you like numeric characters included in the password?")
     var pSpecial = confirm("Would you like special characters included in the password?")
 
-    if (pLower === false && pUpper  === false && pNumber === false && pSpecial === false){
+    if (!pLower && !pUpper && !pNumber && !pSpecial){
         alert("Must choose atleast one character type.");
     }
-
 
     var password = generatePassword();
 

@@ -14,9 +14,9 @@ function writePassword(){
     var pNumber = confirm("Would you like numeric characters included in the password?")
     var pSpecial = confirm("Would you like special characters included in the password?")
 
-    
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+
+    var password = generatePassword();
+    var passwordText = document.querySelector("#password");
   
 
 passwordText.value = password;

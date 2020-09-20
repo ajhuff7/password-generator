@@ -37,7 +37,7 @@ A password creator that provides randomized passwords within the users perinmete
 
 ## Deployed Link
 
-* [See Live Site](https://ajhuff7.github.io/portfolio-one/)
+* [See Live Site](https://ajhuff7.github.io/password-generator/)
 
 ---
 
@@ -49,9 +49,6 @@ A password creator that provides randomized passwords within the users perinmete
 - [Github](https://github.com/ajhuff7)
 - [LinkedIn](https://www.linkedin.com/in/aj-huff-7696b14b/)
 
-## Credits
-
-**Big thank you to all the anonymous inspirations who supported this project... And the Steve Miller Band.**
 
 ## License
 
